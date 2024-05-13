@@ -36,7 +36,7 @@ TEMP_PATH=$(grep '^PATH=' $ENV_FILE | cut -d '=' -f 2)
 TEMP_PYTHONHOME=$(grep '^PYTHONHOME=' $ENV_FILE | cut -d '=' -f 2)
 # Initialize the variables required by deactivate function
 _OLD_VIRTUAL_PS1="${TEMP_PS1:-}"
-_OLD_VIRTUAL_PATH="$TEMP_PATH"
+_OLD_VIRTUAL_PATH="$TEMP_PATH" 
 if [ -n "${PYTHONHOME:-}" ] ; then
     _OLD_VIRTUAL_PYTHONHOME="${TEMP_PYTHONHOME:-}"
 fi
