@@ -30,8 +30,8 @@ def get_blynk_pin_values(auth_token, pins):
         json.dump(existing_pin_values, f)
 
 # Replace these with your actual authentication token and pin numbers
-sadd = '68.183.87.221'
-auth = "3P3MOCTij9_YMXJC8UvHsjSM3V4SxYRP"
+sadd = '68.183.87.###'
+auth = "3P3MOCTij9_YMXJC8UvHsjSM3V4Sx###"
 pins = ["V0", "V1", "V2", "V3"]  # List of pin numbers you want to retrieve values from
 
 get_blynk_pin_values(auth, pins)
@@ -57,8 +57,8 @@ get_blynk_pin_values(auth, pins)
 #     get_blynk_pin_values(auth, pins)
 
 # # Replace these with your actual authentication token and pin numbers
-# sadd = '68.183.87.221'
-# auth = "PO3XxVbZGBuoEsGJT7HC1GZvcXWq6mE5"
+# sadd = ''
+# auth = ""
 # pins = ["V0", "V1", "V2", "V3"]  # List of pin numbers you want to retrieve values from
 
 # # Schedule fetching pin values every 6 hours
