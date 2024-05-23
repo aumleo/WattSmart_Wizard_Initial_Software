@@ -36,7 +36,9 @@ The recommend.py script generates actionable recommendations based on the proces
 
 
 
+
 - *Example Observed Trends* 🚀
+
 ![ENERGY CONSUMPTION TREND](output_images/output2.ww.png)
 ![POWER CONSUMPTION TREND](output_images/output.ww.png)
 
