@@ -2,7 +2,7 @@ WATTSMART WIZARD : YOUR ENERGY EFFICIENT ALLY 💡
 
 This repository contains scripts and notebooks for retrieving, processing, and analyzing energy consumption data collected from an ESP32 microcontroller connected to AC current and voltage sensors. The data is visualized and analyzed to provide insights and recommendations for optimizing energy usage.
 
-*Repository Contents* -
+- *Repository Contents* -
 
 retrieve.py: Script for retrieving real-time data from the Blynk platform using the Blynk API.
 
@@ -12,7 +12,7 @@ process.ipynb: Jupyter notebook for processing and analyzing the retrieved data.
 
 recommend.py: Script for generating recommendations based on the analyzed data, aimed at optimizing energy consumption.
 
-*Description* -
+- *Description* -
 
 - retrieve.py ⚡
 
@@ -34,6 +34,7 @@ Visualizes the data with Matplotlib to identify trends and patterns in energy us
 
 The recommend.py script generates actionable recommendations based on the processed data. It analyzes energy consumption patterns and suggests ways to optimize energy usage, such as turning off appliances during peak hours or adjusting thermostat settings.
 
+- *Example Observed Trends* 🚀
 ![ENERGY CONSUMPTION TREND](output_images/output2.ww.png)
 ![POWER CONSUMPTION TREND](output_images/output.ww.png)
 
