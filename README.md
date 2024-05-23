@@ -5,8 +5,11 @@ This repository contains scripts and notebooks for retrieving, processing, and a
 *Repository Contents* -
 
 retrieve.py: Script for retrieving real-time data from the Blynk platform using the Blynk API.
+
 pinvalues.json: JSON file storing pin values and other configuration data necessary for data retrieval and processing.
+
 process.ipynb: Jupyter notebook for processing and analyzing the retrieved data. This notebook uses Pandas for data manipulation and Matplotlib for visualization.
+
 recommend.py: Script for generating recommendations based on the analyzed data, aimed at optimizing energy consumption.
 
 *Description* -
@@ -14,11 +17,12 @@ recommend.py: Script for generating recommendations based on the analyzed data, 
 retrieve.py ⚡
 The retrieve.py script fetches real-time data from the Blynk platform using HTTP GET requests. The script retrieves voltage and current readings from the ESP32 microcontroller and stores them in a structured format for further processing.
 
-pinvalues.json
+pin_values.json
 The pinvalues.json file contains configuration data, including the virtual pin assignments for the sensors. This file is essential for the retrieve.py script to correctly map and interpret the sensor data.
 
 process.ipynb 🔌
 The process.ipynb notebook is designed for data analysis and visualization. It performs the following functions:
+
 Reads the retrieved data.
 Processes the data using Pandas to calculate power consumption and other metrics.
 Visualizes the data with Matplotlib to identify trends and patterns in energy usage.
