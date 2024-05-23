@@ -14,20 +14,24 @@ recommend.py: Script for generating recommendations based on the analyzed data, 
 
 *Description* -
 
-retrieve.py ⚡
+- retrieve.py ⚡
+
 The retrieve.py script fetches real-time data from the Blynk platform using HTTP GET requests. The script retrieves voltage and current readings from the ESP32 microcontroller and stores them in a structured format for further processing.
 
-pin_values.json
+- pin_values.json
+
 The pinvalues.json file contains configuration data, including the virtual pin assignments for the sensors. This file is essential for the retrieve.py script to correctly map and interpret the sensor data.
 
-process.ipynb 🔌
+- process.ipynb 🔌
+
 The process.ipynb notebook is designed for data analysis and visualization. It performs the following functions:
 
 Reads the retrieved data.
 Processes the data using Pandas to calculate power consumption and other metrics.
 Visualizes the data with Matplotlib to identify trends and patterns in energy usage.
 
-recommend.py 🔋
+- recommend.py 🔋
+
 The recommend.py script generates actionable recommendations based on the processed data. It analyzes energy consumption patterns and suggests ways to optimize energy usage, such as turning off appliances during peak hours or adjusting thermostat settings.
 
 ![ENERGY CONSUMPTION TREND](output_images/output2.ww.png)
