@@ -1,4 +1,4 @@
-WATTSMART WIZARD : YOUR ENERGY EFFICIENT ALLY 💡
+#### WATTSMART WIZARD : YOUR ENERGY EFFICIENT ALLY 💡
 
 This repository contains scripts and notebooks for retrieving, processing, and analyzing energy consumption data collected from an ESP32 microcontroller connected to AC current and voltage sensors. The data is visualized and analyzed to provide insights and recommendations for optimizing energy usage.
 
