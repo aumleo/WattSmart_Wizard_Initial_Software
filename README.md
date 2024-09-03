@@ -18,7 +18,7 @@ retrieve.py ⚡
 
 The retrieve.py script fetches real-time data from the Blynk platform using HTTP GET requests. The script retrieves voltage and current readings from the ESP32 microcontroller and stores them in a structured format for further processing.
 
-pin_values.json
+pin_values.json -
 
 The pinvalues.json file contains configuration data, including the virtual pin assignments for the sensors. This file is essential for the retrieve.py script to correctly map and interpret the sensor data.
 
